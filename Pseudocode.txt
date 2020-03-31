@@ -1,0 +1,22 @@
+Function Main
+    Declare Integer i, j, k
+    Declare Integer Array dus[9]
+    
+    Output "Jumlah dus : 9"
+    Output "Nomor dus = "
+    For i = 0 to 8
+        Output (i+1)*2
+        Output ","
+    End
+    Output " "
+    Assign j = 1
+    For i = 0 to 8
+        Output "nomor dus "
+        Output j
+        Assign j = j+1
+        Output " = "
+        Output (i+1)*2
+        Output " "
+    End
+    Output " "
+End
